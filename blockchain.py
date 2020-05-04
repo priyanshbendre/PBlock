@@ -55,7 +55,7 @@ class Blockchain:
 
 blockchain = Blockchain()
 
-for n in range(5):
+for n in range(10):
     blockchain.mine(Block("Block " + str(n+1)))
 
 while blockchain.head != None:
